@@ -38,7 +38,7 @@ The critical information for each car is the vin, make, model, and mileage. They
 
 #### Write Middleware
 
-- Write the following middlewares inside `api/cars/cars-middleware.js`:
+- Write the following middleware inside `api/cars/cars-middleware.js`:
 
   - `checkCarId` returns a status 404 with a `{ message: "car with id <car id> is not found" }` if the id in `req.params` does not exist in the database.
 
